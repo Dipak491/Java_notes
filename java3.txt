@@ -1,0 +1,42 @@
+
+How to create the object 
+	className objname = new className()
+	 
+	 new is keyword to alloacate memory 
+	 classname();// it is fucntion actally a default constructor
+	
+	1byte = 8bit 
+	4 bit = 1 nibble
+	2 nibble  = 1byte
+	
+	1bit = 0,1
+	
+	class classname{} //syntax of class
+	
+	class Demo
+	{
+		String s = "Welcome to java"
+	
+	void display()
+	{
+		System.out.println(s);
+	}
+	
+	}
+	
+	
+	object is one type of variable whose data type is class 
+	//class obj;
+	
+	
+	parameterized function 
+	
+	int add(int a, int b)
+	{
+			return a+b;
+	}
+	public static void main(String args[])
+	{
+		Demo o = new Demo();
+		Sysytem.outu.println(o.add(10,20));
+	}

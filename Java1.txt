@@ -1,0 +1,59 @@
+Naming convetion
+
+package name: lowercase 
+Class name : UpperCamel case
+Function name: lowerCamel case 
+
+project-> CoreJava
+package -> com.corejava
+class name -> HelloWorld
+
+class -> collection of objects  ex. mobile ,students   (name,roll,mob-> properties)
+		We can used n number of variable and function 
+object is run time enitity  ex.samsumg,nokia ,student1
+
+syntax of function 
+returntype function_name()// paranthesis compulsroy in function
+{
+}
+
+int Additon()
+{}
+
+*****basic structure in java**
+1.	class name always UpperCamel case
+class ClassName
+{
+public static void main(String args[])
+	{
+	
+	}
+}
+
+
+1.	Public:  wifi 
+	Private: our laptop 
+	Protected: projector only inside the class 
+
+2.	Static is keyword
+	Static is fixed but can be change 
+	
+3.	Void is return type 
+4. 	Main() function name 
+	Compiler start from always mainfunction
+
+5.	String is class in java 
+	assumne that the intitally arguments in string[] 
+	
+System.out.println("message" +	var +	functioncall())
+
+1.	System -> inbuilt method  (out,in,err)
+	We are just calling not defining 
+2	out -> is method 
+3.	println() ->inbult fucntion
+
+
+	
+
+
+

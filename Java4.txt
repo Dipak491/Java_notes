@@ -1,0 +1,13 @@
+operators
+
+Control structure    //whenever we have certain condition 
+	1. simple If  (only true part)
+		if is keyword 
+		if(Condition)
+	
+	2. if_else   //use when true or false
+	
+	3. if_else ladder
+		
+		
+	

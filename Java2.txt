@@ -1,0 +1,69 @@
+class {
+		variable/ data members 
+		Function/members function
+		}
+		
+	
+	If we declare "static" function inside the class  then no need to create object in main.
+	
+	
+	class : Laptop
+	object: Dell,hp,
+	
+	class Students
+	{
+		static int id ;    //properties
+		static String name ;  ////properties 
+		
+		//string is collection of char (string is array to store char)
+		
+		
+		static void getValue() //Function name user defined function 
+		{
+			id  = 1;
+			name = "Dipak";
+		}	
+		
+		static void displayData()
+		{
+			System.out.println("id = " + id);
+			System.out.println("Name=  "+name);
+		}
+		
+		public static void main(String args[])
+		{
+			getValue();
+			displayData();
+		}
+	}
+	
+	.. output :-> 
+		id = 1
+		Name= Dipak
+	
+	
+	\\\\\\\\\\\\\\\\\\\\\\JVM\\\\\\\\\\\\\\\\\\\\\\\\\\
+	
+	Compiler and interpreter 
+	
+	in java we save (.java)
+	first compile .java file convert into .class file 
+	source code --> byte code    (interpreter)
+	byte code --> machine code 	(compiler)
+	
+	interprete that code convert code into machine code 
+	
+	int a =10;
+	int b = 20;
+	System.out.println(a+b+"hi");  30hi  //
+	System.out.println("hi"+a+b);   //hi1020  //
+	System.out.println("sum is "+(a+b);    //sum is 30
+	
+	
+	Q.	how to create class
+	Q.	how to create function 
+	Q.	how to to call 
+	Q.	how to static to call 
+	Q.	how to non static to call 
+	
+	
