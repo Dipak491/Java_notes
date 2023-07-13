@@ -1,0 +1,113 @@
+package .comoperators
+class ArithmaticOpetarosDemo
+
+package oprators;
+
+public class ArithmaticOperatorDemo {
+
+	public static void main(String[] args) {
+		int No1 = 10;
+		int No2 = 20;
+		
+		System.out.println("Addition is "+(No1+No2));
+		System.out.println("Substraction is "+(No1-No2));
+		System.out.println("Multiplication is "+(No1*No2));
+		System.out.println("Division is "+(No1/No2));
+		System.out.println("Modulus is "+(No1%No2));
+	}
+
+}
+
+AssignmentoperatorDemo
+
+1.	=   store value rhs to lhs 
+
+2.  var = var+a;
+
+	var += a;
+	
+RelationalOperator 
+	1.	<
+	2.	>
+	3.	<=
+	4.	>=
+	5.	==
+	6. !=
+	
+Logical operator 
+	1.	&&
+	2. 	||
+	3.	!
+	
+Uniary opeartor 
+	operation perform on single operand 
+	++
+	--
+	
+	Postfix 	first print then increment   a++
+	a =10
+	sop(a++)  //10
+	sop(a)  //11
+	
+	
+	Prefix 		first increment then print	++a
+	a =10;
+	sop(++a) // 11;
+	sop(a)  //11
+	
+Ternary oprators (?)
+	
+	condition ? true : false;
+	
+package com.operators;
+
+public class EvenOdd {
+
+	public static void main(String[] args) {
+		int num = 10;
+		
+		String result = ((num%2)==0) ?"Even" : "Odd";
+		System.out.println(result);
+	}
+}
+
+Bitwise operator 
+	Bit is 0 or 1 format 
+	
+	128	64	32	16	8	4	2	1 
+	
+	0	0	0	0	0	1	0	1
+	
+	
+	if we want to calculate bit value of 5 is(101)  (means 4+1) 
+	like this you can find binary of any number 
+	
+	AND (&)operator 		
+	0  1  -> 0						5  101
+	0  0  -> 0						7  111
+	1  1  -> 1						=  101   (5)	
+	1  0  -> 0						(5&7) = 5
+	
+	OR(|) operator 
+	0  1  -> 1
+	0  0  -> 0
+	1  1  -> 1
+	1  0  -> 1
+	
+	XOR ( ^ ) operator 
+	0  1  -> 0
+	0  0  -> 1
+	1  1  -> 1
+	1  0  -> 0
+	
+	bitwise NOT (~) operator 
+	if you fins biwise not of 7 (111)
+	then we add 1 in 7 and apply -sign before number 
+	that is -8;
+	
+	
+	
+	
+	
+	
+	
