@@ -18,7 +18,7 @@ public class ArithmaticOperatorDemo {
 
 }
 
-AssignmentoperatorDemo
+------------------AssignmentoperatorDemo
 
 1.	=   store value rhs to lhs 
 
@@ -26,20 +26,20 @@ AssignmentoperatorDemo
 
 	var += a;
 	
-RelationalOperator 
-	1.	<
-	2.	>
-	3.	<=
-	4.	>=
-	5.	==
-	6. !=
+------------------RelationalOperator 
+	1.	<  (5<3)
+	2.	>	(5>3)
+	3.	<=	(5<=3)
+	4.	>=	(5>=3)
+	5.	==	(5==5)
+	6. !=	(5 != 10)
 	
-Logical operator 
-	1.	&&
-	2. 	||
-	3.	!
+--------------------Logical operator 
+	1.	&&  (5>2)&&(5>6)   when both condition true
+	2. 	||	(5>2) || (5<6) when single condition true
+	3.	!	!(5==5)   true
 	
-Uniary opeartor 
+------------------------Uniary opeartor 
 	operation perform on single operand 
 	++
 	--
@@ -55,7 +55,7 @@ Uniary opeartor
 	sop(++a) // 11;
 	sop(a)  //11
 	
-Ternary oprators (?)
+----------------Ternary oprators (?)----------------
 	
 	condition ? true : false;
 	
@@ -71,7 +71,8 @@ public class EvenOdd {
 	}
 }
 
-Bitwise operator 
+
+-------------------Bitwise operator--------------- 
 	Bit is 0 or 1 format 
 	
 	128	64	32	16	8	4	2	1 
@@ -104,7 +105,6 @@ Bitwise operator
 	if you fins biwise not of 7 (111)
 	then we add 1 in 7 and apply -sign before number 
 	that is -8;
-	
 	
 	
 	
