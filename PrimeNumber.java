@@ -1,35 +1,40 @@
-package com.loops;
 import java.util.*;
-
-public class PrimeNumber { //only divide by itself and 1  //5, 13
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+//2,3,5,7,11 
+class PrimeNumber
+{
+	public static void main(String[] args) 
+	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number to check prime or not ");
-		int num = sc.nextInt();	
-		int count =0;
-		
-		
-		//for(int i = 1; i<=num; i++) //it increase time complexity 
-		
-		for(int i = 1; i<=num/2; i++)  // it reduce time complexity 
-		{
-			if(num%i == 0)
-			{
-				count++;
-			}
-		}
-		if(count ==1)
-		{
-			System.out.println("Prime");
-		}
-		else
-		{
-			System.out.println("Not primme");
-		}
 
+		System.out.println("Enter number ");
+		int n = sc.nextInt();
+
+			boolean isPrime = true;
+		if(n==2)
+		{
+			System.out.print("n is PrimeNumber");
+		}
+		else 
+		{
+
+		 for(int i = 2; i<= n-1;i++)
+		 {
+		 	if(n%i==0)
+		 	{
+		 		isPrime = false;
+		 	}
+		 }
+
+		}
+		
+		 if(isPrime == true)
+		 {
+		 	System.out.println("n is prime");
+		 }
+		 else 
+		 {
+		 	System.out.print("n is not prime");
+		 }
+		
 	}
-
 }
