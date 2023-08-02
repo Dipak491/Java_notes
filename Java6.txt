@@ -1,0 +1,23 @@
+Input from user 
+Scanner class under util package 
+default java. lang package 
+
+interface and class collection is package 
+
+import java.util.Scanner;
+import java.util.*;  //for all class 
+
+we have to create object of scanner class 
+Scanner sobj = new Scanner(System.in);
+
+int  a ;
+sop(
+a = sobj.nextInt();
+		nextint is method/ function inbuilt function 
+		
+		sobj.next()  //for string() 
+		sobj.next()charAt(0)  //for charAt(0)
+		sobj.nextBigint() //for long int 
+		
+		
+ 

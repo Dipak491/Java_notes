@@ -1,0 +1,84 @@
+Array
+
+index value is always 0  why?
+
+int a[] = {1,2,3,5};
+	a.length();
+	a.length-1   =last index value 
+	
+	
+	intiallization
+	int a[];  //its not working 
+	
+	
+	//to accept value from user 
+	int a[] = new int[10];	
+	
+	for(int i = 0; i<=9; i++)
+	{
+		a[i] = sc.nextInt();
+	}
+	
+	
+	//Display all values use for loop 
+	for(int i = 0; i<=9; i++)
+	{
+		sysout(a[i]);
+	}
+	
+	
+	arr.length; //array of elements 
+	
+	sysout(toString(arr1)) //to display array 
+	
+	System.out.println(Arrays.deepToString(Arr));  //to dsiplay 2D array 
+
+	
+	
+	TWO DIRECTIONAL
+	
+	int[][] a =int[3][3];  
+	int [][]a = { {1,2,3}, {4,5,6}, {7,8,9} }
+	
+	|1 2 3|
+	|4 5 6|
+	|7 8 9|
+	
+	for Scanner input 
+	
+	for(int i = 0; i<arr.length; i++)
+	{
+		fro(int j= 0; j<arr.length;j++)
+			{
+				a[i][j] = sc.nextInt();
+			}
+		}
+		
+		if both array element same
+	if(Arr1==Arr2) it give false return; it compare refrence of array adress of array 
+	
+	we have to use if(Arrays.equals(Arr1,Arr2)
+	it give true 
+	
+	----------------DISPLAY-------------------------------------
+	
+		int[]arr = readArr();
+		
+		
+		1.	//to display 
+		for(int brr:arr)
+		{
+			System.out.println(brr);
+		}
+	
+		2.	//System.out.println(Arrays.toString(arr));
+			//System.out.println(Arrays.deepToString(arr,brr));
+		
+		3.	//for(int i = 0; i<3; i++)
+		{
+		   System.out.println(arr);
+		}
+	}
+	
+	
+	

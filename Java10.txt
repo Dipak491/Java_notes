@@ -1,0 +1,111 @@
+
+		Constructor
+			-default
+			-parameterized
+			-JAVA NOT SUPPORT COPY CONSTRUCTOR  //IT NOT SUPPORT POINTER 
+			-classname
+			-classname(arg1,arg2)
+			-* No return type 
+			-special function
+			
+			
+		---------------------------------------------------------------------------------------
+		---------------------------------------------------------------------------------------
+		
+	SYNTAX:-	
+	class Student
+	{
+		
+		Student()  //same as class name default constructor 
+		{ 
+		}
+		
+		Student(int a, int b)  //same as class name Parameterized constructor 
+		{ 
+		}
+	}			
+			
+		---------------------------------------------------------------------------------------
+		---------------------------------------------------------------------------------------
+			
+	cout<<  insertion
+	cin>>  extraction
+	getch()  -> get char to accept char 
+	
+	
+	#include<>  -->   preprocessor directive 
+	
+	---------------------------------------------------------------------------------------
+	---------------------------------------------------------------------------------------
+	class demo
+	Array of constructor
+	demo []d = new Demo[5];
+	d[0] = new Demo();
+	d[1] = new Demo();
+	d[2] = new Demo();
+	d[3] = new Demo();
+	d[4] = new Demo();
+	
+	
+	---------------------------------------------------------------------------------------
+	---------------------------------------------------------------------------------------
+	
+	chaninng constructor
+		1.this keyword 
+			current object 
+			this always first line of function or constructor
+			
+			void add()
+			{
+				this()
+				sysout()
+			}
+		
+		2.Super keyword
+			
+	
+polymorphism  -- it is ability to take more than one form 	
+	
+	1.METHOD OVERLODING -- (same function name but different no of parameter or data type)
+	class demo{
+		void get(int a)
+		{ a=10; }
+		void get(int a,float b)
+		{a =10; b =12.2; }
+		}
+	
+	
+	METHOD OVERRIDING  --(same function name and same no of parameter and data type )
+		we use here inheritance using extends class 
+		same fun name differnt defination you call from derived class run only derived fun()
+		you have to call base class fun we create obj of base class.
+	
+	
+	
+	Inheritance --> Deriving new class from base class 
+	extends --> use for inheritance 
+	impliments--> 
+	
+	object create always derived class 
+	TYPES OF INHERITANCE
+	
+		1.Single INHERITANCE (one base class one derived classs)(parent class and child class)
+			/ always create obj of derived class s\
+		
+		****NOT SUPPORT MULTIPLE INHERITANCE (multiple base class and single derived class)
+			TO overcome this problem we use INTERFACE
+		
+		2.MULTILEVEL INHERITANCE (derived class is base of derived class)
+		class A {}
+		class B extends A{}
+		class C extends B{}
+		class D extends C{}
+		
+		3.Hirerchical INHERITANCE
+			(
+			
+		
+		
+			
+		
+	

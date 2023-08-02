@@ -55,6 +55,14 @@ public class ArithmaticOperatorDemo {
 	sop(++a) // 11;
 	sop(a)  //11
 	
+	
+	int a =10;
+	sop(a)  //10
+	a++;    //11
+	++a;
+	sop(a++); //12 
+	sop(++a); //14
+	
 ----------------Ternary oprators (?)----------------
 	
 	condition ? true : false;
